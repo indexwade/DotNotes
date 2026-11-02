@@ -1,0 +1,16 @@
+<main id="app">
+  <header><div><span class="eyebrow">LOCAL NOTEBOOK</span><h1>记下，写完再交给 dot。</h1></div><button id="new" class="primary">＋ 新建笔记</button></header>
+  <div class="connection"><span class="dot"></span><strong>dot 未连接</strong><span>笔记只存本地。完成后也不会假装发送成功。</span></div>
+  <div id="error" role="alert" hidden></div>
+  <div class="workspace">
+    <aside aria-label="笔记列表"><div class="list-heading"><span>我的笔记</span><span id="count">0</span></div><div id="list"></div></aside>
+    <section id="empty"><div class="empty-symbol">＋</div><h2>给一个想法留个位置。</h2><p>新建一条笔记，随时写下。<br>不需要账号，也不需要联网。</p></section>
+    <section id="editor" hidden aria-label="编辑笔记">
+      <label class="sr-only" for="title">标题</label><input id="title" placeholder="无标题笔记" maxlength="500" autocomplete="off">
+      <label class="sr-only" for="body">正文</label><textarea id="body" placeholder="从这里开始写……" maxlength="180000" spellcheck="true"></textarea>
+      <footer><span id="save-status" role="status" aria-live="polite">本地已保存</span><button id="save">保存 / 重试</button><button id="send" class="primary">完成并发送</button></footer>
+      <details id="history"><summary>发送记录 <span id="history-count">0</span></summary><p class="hint">每条记录固定对应当时的标题和正文。服务接收不代表 dot 已处理。</p><div id="records"></div></details>
+    </section>
+  </div>
+  <p class="bottom-note">由 Joplin 本地存储支持 · 普通保存不会发送 · 未连接时保留提交快照</p>
+</main>

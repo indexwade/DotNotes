@@ -1,0 +1,12 @@
+{
+  "manifest_version": 1,
+  "id": "local.dotnotes.notebook",
+  "name": "Dot Notes · 本地记事",
+  "version": "0.1.0",
+  "app_min_version": "3.7.11",
+  "app_min_version_mobile": "3.7.11",
+  "platforms": ["desktop", "mobile"],
+  "description": "简洁纯文本记事面板，复用 Joplin 本地保存。dot 接入未连接；不会上传笔记。",
+  "author": "Dot Notes contributors",
+  "categories": ["editor", "integrations"]
+}

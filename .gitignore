@@ -1,0 +1,13 @@
+upstream-joplin/
+node_modules/
+.gradle/
+.env
+.env.*
+*.keystore
+*.jks
+*.apk
+*.aab
+*.sqlite*
+dot-notes/dist/
+dot-notes/release/
+dot-notes/verification/

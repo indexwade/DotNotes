@@ -1,0 +1,9 @@
+{
+  "name": "joplin-plugin-dot-notes-local",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first plain text notes on Joplin; dot connection not configured",
+  "license": "MIT",
+  "scripts": { "test": "node --test test/*.test.cjs", "build": "node scripts/build.cjs" },
+  "engines": { "node": ">=24" }
+}
